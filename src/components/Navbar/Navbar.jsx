@@ -10,6 +10,7 @@ const Navbar = () => {
     <div className='navbar'>
       <ul className='navbar__list'>
         <li onClick={() => navigate('/')}>Home</li>
+        <li onClick={() => navigate('/products')}>Products</li>
         <li onClick={() => navigate('/about')}>About us</li>
       </ul>
     </div>

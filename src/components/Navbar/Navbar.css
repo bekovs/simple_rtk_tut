@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.navbar__list {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.navbar__list > li {
+  cursor: pointer;
+  transition: 150ms;
+}
+
+.navbar__list > li:hover {
+  color:rgba(0, 0, 0, 0.6)
+}
